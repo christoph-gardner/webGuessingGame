@@ -20,10 +20,10 @@ function guessingGame(){
   
   function play(){
     alert("Let's play...");
-    let answer = Math.floor(Math.random() * 100) +1;
+    let answer = Math.floor(Math.random() * 100) + 1;
     console.log("this is the document");
     console.log(document);
-    console.log("this is the form:: ");
+    console.log("this is the form: ");
     console.log(document.getElementById("guessingForm"));
   }
 
@@ -33,14 +33,17 @@ function guessingGame(){
     console.log(this);
     console.log("This is the event:");
     console.log(e);
-    // updat count of guessEs!
+    // update count of guessEs!
     while(this.value != answer){
       if(this.value < answer){
-        alert("????");
+        alert("guess higher");
       }
       else if (this.value > answer){
-      alert("greater?");
-    }
+        alert("guess lower");
+      }
+      else if (this.value == answer){
+        alert("you got it!");
+      }
     
   }
 
