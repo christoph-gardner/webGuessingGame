@@ -52,6 +52,7 @@ function guessingGame(){
     alert("getBest");
   }
   
+  }
 }
 
 
