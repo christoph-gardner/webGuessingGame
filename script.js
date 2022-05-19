@@ -20,10 +20,10 @@ function guessingGame(){
   
   function play(){
     alert("Let's play...");
-    let answer = Math.loor(Math.random() * 100) +1;
+    let answer = Math.floor(Math.random() * 100) +1;
     console.log("this is the document");
     console.log(document);
-    console.log("this is thE form:: ");
+    console.log("this is the form:: ");
     console.log(document.getElementById("guessingForm"));
   }
 
