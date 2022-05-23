@@ -43,6 +43,7 @@ function guessingGame(){
       }
       else if (this.value == answer){
         alert("you got it!");
+        break;
       }
     
   }
